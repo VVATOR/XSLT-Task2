@@ -1,0 +1,97 @@
+/** {
+    padding: 15px 0px 0px 0px;
+    margin: 0px;
+}*/
+
+body {
+    padding-top: 0px;
+    margin: 0px;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#atlas-document {
+    min-width: 1840px;
+    max-width: 1840px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    /*margin-bottom: 25px;*/
+    /*   margin-top: 15px;*/
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.italic {
+    /*  background: yellow;*/
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p.italic .bold {
+    font-style: italic;
+    font-size: 12px;
+}
+
+li div.note {
+    display: inline-block;
+    border: 1px solid #CDD3D3;
+    padding: 15px 5px 15px 5px;
+    margin-top: 15px;
+    background: #F8F8F8;
+    font-style: normal;
+}
+
+li ul li div.note {
+    display: inline-block;
+    border: 1px solid #CDD3D3;
+    padding: 10px 5px 0px 5px;
+    margin-top: 15px;
+    background: #F8F8F8;
+    font-style: normal;
+}
+
+.note p {
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.note p.italic {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+.level {
+    /* border: 1px solid red;*/
+    padding-top: 5px;
+    padding: 0px 0px 0px 40px;
+}
+
+.wkdoc-level {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+ul {
+    list-style: none;
+    list-style-image: none;
+    margin-left: 0px;
+    padding-left: 35px;
+}
+
+li {
+    list-style: none;
+    list-style-image: none;
+}
